@@ -1,0 +1,130 @@
+
+body{
+    font-family: 'Commissioner', sans-serif;
+    font-style: italic;
+}
+
+.header .container{
+    padding-bottom: 30px;
+    border-bottom: 1px solid gray;
+}
+
+.name{
+    padding-top: 30px;
+    text-align: left;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.img-beka{
+    width: 20%;
+}
+
+img{
+    width: 100%;
+}
+
+.short-info{
+    padding-top: 90px;
+    text-align: right;
+    
+}
+
+.email a{
+    color:inherit;
+    text-decoration: none;
+}
+
+/* More Info */
+
+.block .container{
+    padding-top: 20px;
+    border-bottom: 1px solid gray;
+    padding-bottom: 30px;
+}
+
+.block__left-intro{
+    text-align: left;
+    padding-top: 20px;
+}
+
+.block__left-intro  span{
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    border-radius: 4px;
+    
+}
+
+
+
+/* Qualities */
+
+.qualities .container{
+    text-align: left;
+    border-bottom: 1px solid gray;
+    padding-bottom: 20px;
+}
+
+.qualities__skills,
+.qualities__languages,
+.qualities__references{
+    padding-top: 30px;
+
+}
+
+.qualities__skills__intro,
+.qualities__languages__intro,
+.qualities__references__intro{
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    border-radius: 4px;
+    
+}
+
+.qualities__skills__text,
+.qualities__languages__text,
+.qualities__references__text{
+    padding-top: 20px;
+}
+
+ul{
+    padding-left: -10px;
+}
+
+.skills__ul a{
+    text-decoration: none;
+}
+
+
+
+@media screen and (max-width:768px){
+    .name{
+        width: 100%;
+        text-align: center;
+    }
+
+    .img-beka{
+       width: 40%;
+        margin-left: 30%;
+        padding-top: 10%;
+    }
+
+    .short-info{
+        width: 100%;
+        text-align: left;
+    }
+    .block__left-intro{
+        width: 100%;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    .qualities .container{
+        text-align: center;
+    }
+    ul{
+       list-style-type: none;
+    }
+}
